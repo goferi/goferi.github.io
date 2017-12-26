@@ -1,22 +1,21 @@
+@font-face {
+    font-family: 'sixtyseven';
+    src: url('../fonts/sixtysevenfot-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sixtysevenfot-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'sixtyseven';
+    src: url('../fonts/sixtysevenfot-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sixtysevenfot-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+	background: url('/img/bg.jpg');
+	font-family: 'sixtyseven';
+	color: #fff;
+}
