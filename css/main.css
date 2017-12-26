@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'sixtyseven';
-    src: url('../fonts/sixtysevenfot-bold-webfont.woff2') format('woff2'),
-         url('../fonts/sixtysevenfot-bold-webfont.woff') format('woff');
+    src: url('../fonts/sixtyseven-bold.woff2') format('woff2'),
+         url('../fonts/sixtyseven-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'sixtyseven';
-    src: url('../fonts/sixtysevenfot-regular-webfont.woff2') format('woff2'),
-         url('../fonts/sixtysevenfot-regular-webfont.woff') format('woff');
+    src: url('../fonts/sixtyseven-regular.woff2') format('woff2'),
+         url('../fonts/sixtyseven-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
