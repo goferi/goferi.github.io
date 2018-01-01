@@ -14,9 +14,21 @@
     font-style: normal;
 }
 
+html {
+	background: url('/img/bg.jpg')  no-repeat center center fixed;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+	html {
+		background-position: -90px center;
+	}
+}
+
+
 body {
+	background: transparent;
 	direction: rtl;
-	background: url('/img/bg.jpg');
 	font-family: 'sixtyseven';
 	color: #fdebbd;
 	font-size: 1.2em;
