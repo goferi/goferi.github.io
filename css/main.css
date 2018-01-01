@@ -15,13 +15,16 @@
 }
 
 html {
-	background: url('/img/bg.jpg')  no-repeat center center fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background: url('/img/bg.jpg')  no-repeat center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 @media only screen and (max-width: 480px) {
 	html {
-		background-position: -80px center;
+		background-position: -50px center;
 	}
 }
 
